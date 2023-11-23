@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+} /* font */
+
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px; 
+  height: auto;
+  box-shadow: 0 0px 8px rgba(1, 1, 1, 2); /* shadow around the logo */
+}
+
+body {
+  background-image: url('holdingpage3.png'); /* random place holder background bc we dont have one yet */
+  background-size: cover; /* makes the background pic completely cover the page while keeping its aspect ratio*/
+  background-position: center; /* fixes the background image to the center */
+  margin: 0;
+}
+
+.header {
+  border: 3px outset #000000;
+  background-color: white;
+  text-align: center;
+  padding: 10px; /* rounded edges */
+  border-radius: 20px;
+  margin: 150px auto; /* Add margin to bring it down */
+  width: 45%; /* Make the box smaller vertically*/
+}
+
+.description-box {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border: 3px outset #000000;
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+  margin: -122px auto;
+  width: 30%;
+}
+
+/*
+.name-input {
+  margin-left: 20%;
+  margin-top: 200px;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}
+
+.name-input:focus {
+  outline: none;
+  border-color: #0056b3;
+  background-color: #e9ecef;
+} 
+
+.email-input {
+  margin-left: 40%;
+  margin-top: 200px;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: #0056b3;
+  background-color: #e9ecef;
+} 
+
+.button {
+  margin: 100px auto; 
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:active {
+  animation: buttonClickAnimation 0.3s;
+}
+
+@keyframes buttonClickAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+*/
+.launch-time{
+  display: flex;
+  margin-left: 738px;
+  margin-top: 181px;
+}
+.launch-time div {
+  flex-basis: 100px;
+}
+.launch-time div p{
+  font-size: 60px;
+  margin-bottom: -14px;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 500px auto;
+  margin-top: 189px;
+  
+}
+.twitter_logo{
+  height: 98px;
+  padding: 50px;
+}
+.facebook_logo{
+  height: 98px;
+  padding: 50px;
+}
+.instagram_logo{
+  height: 98px;
+  padding: 50px;
+}
+.linkedin_logo{
+  height: 98px;
+  padding: 50px;
+}
